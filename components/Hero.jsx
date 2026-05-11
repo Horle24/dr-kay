@@ -41,8 +41,7 @@ export default function Hero() {
           {/* Sub */}
           <p className="hero__sub anim-fade-up delay-2">
             Dr Kay Tradomedical Services offers high-quality, affordable herbal remedies
-            for fertility, chronic disease, detox, and full-body wellness — trusted
-            across Lagos and Oyo State.
+            for fertility, chronic disease, detox, and full-body wellness — trusted all across Nigeria.
           </p>
 
           {/* CTAs */}

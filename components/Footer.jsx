@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="footer__brand-name">Dr Kay</div>
           <span className="footer__brand-sub">Tradomedical Services</span>
           <p className="footer__brand-desc">
-            Specialized in all herbal medicine. Serving Lagos State and Oyo State with quality, affordable natural healthcare.
+            Specialized in all herbal medicine. Serving Nigerians with quality, affordable natural healthcare.
           </p>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-wa">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -49,7 +49,7 @@ export default function Footer() {
         <div>
           <h4 className="footer__section-title">Contact Us</h4>
           {[
-            { icon: '📍', label: 'Address', value: '10, Oguntolu Street, Ijaiye, Lagos' },
+            { icon: '📍', label: 'Address', value: 'WithGod Plot 1, Erumu junction, Erumu, Ibadan, Oyo State' },
             { icon: '📞', label: 'Phone',   value: '+234 810 964 4728\n+234 810 922 6360' },
             { icon: '✉️', label: 'Email',   value: 'drkaytraditionalmedicine@gmail.com' },
           ].map(({ icon, label, value }) => (

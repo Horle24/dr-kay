@@ -13,8 +13,8 @@ export const metadata = {
     'High-quality, affordable herbal medicine in Lagos & Oyo State. ' +
     'Specializing in fertility, chronic disease, detox, and full-body wellness.',
   keywords:
-    'herbal medicine Lagos, tradomedical services, natural healing, fertility herbs, ' +
-    'diabetes herbs Lagos, PCOS herb, fibroid herbs, staphylococcus treatment',
+    'herbal medicine Oyo State, tradomedical services, natural healing, fertility herbs, ' +
+    'diabetes herbs Oyo State, PCOS herb, fibroid herbs, staphylococcus treatment',
 };
 
 export default function RootLayout({ children }) {

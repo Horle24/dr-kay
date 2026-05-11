@@ -35,7 +35,7 @@ export default function ShopPage() {
             </p>
           </div>
           <a
-            href="https://wa.me/2348109644728"
+            href="https://wa.me/2348109226360"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-gold"

@@ -1,9 +1,4 @@
-/**
- * components/Services.jsx
- * ────────────────────────
- * Four core service cards.
- * All styles from globals.css.
- */
+
 
 export default function Services() {
   return (
