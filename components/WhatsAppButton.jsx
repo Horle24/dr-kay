@@ -1,4 +1,6 @@
-import { WHATSAPP_URL } from '../lib/sheets';
+'use client';
+
+const WHATSAPP_URL = 'https://wa.me/2348109226360';
 
 export default function WhatsAppButton() {
   return (
