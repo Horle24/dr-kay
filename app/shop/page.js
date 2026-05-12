@@ -31,7 +31,7 @@ export default function ShopPage() {
               Not sure which product is right for you?
             </h3>
             <p className="shop-cta-banner__sub">
-              Message our herbalist on WhatsApp for a free personalized recommendation.
+              Message our doctor on WhatsApp for a free personalized recommendation.
             </p>
           </div>
           <a
