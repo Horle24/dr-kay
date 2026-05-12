@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import ProductCard from './ProductCard';
-import { ALL_CATEGORIES } from '../lib/sheets';
+
+const ALL_CATEGORIES = ['All', 'Immunity', 'Fertility', 'Diabetes', 'Blood Pressure', 'Digestive', 'Sexual Health', 'Skin & Hair'];
 
 export default function ProductGrid() {
   const [products,  setProducts]  = useState([]);
