@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { WHATSAPP_URL } from '../lib/sheets';
+
+const WHATSAPP_URL = 'https://wa.me/2348109226360';
 
 const NAV_LINKS = [
   { label: 'Home',     href: '/'          },
