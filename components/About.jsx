@@ -56,7 +56,7 @@ export default function About() {
               <span className="about__location-icon">📍</span>
               <div>
                 <div className="about__location-label">Locations</div>
-                <div className="about__location-name">  Oyo State &amp;, Nigeria</div>
+                <div className="about__location-name">  Oyo State, Nigeria</div>
                 <div className="about__location-address">WithGod Plot 1, Erumu junction, Erumu, Ibadan</div>
               </div>
             </div>
