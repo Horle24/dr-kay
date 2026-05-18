@@ -61,7 +61,7 @@ export default function Hero() {
             {[
               { num: '10+', label: 'Years Experience' },
               { num: '34',  label: 'Herbal Products'  },
-              { num: '2',   label: 'State Coverage'   },
+              { num: '36',   label: 'State Coverage'   },
               { num: '90%', label: 'Patient Satisfaction' },
             ].map(({ num, label }) => (
               <div key={label}>
