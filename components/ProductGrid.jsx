@@ -3,7 +3,15 @@
 import { useState, useEffect, useMemo } from 'react';
 import ProductCard from './ProductCard';
 
-const ALL_CATEGORIES = ['All', 'Immunity', 'Fertility', 'Diabetes', 'Blood Pressure', 'Digestive', 'Sexual Health', 'Skin & Hair'];
+const ALL_CATEGORIES = [
+  'All',
+  "MEN'S HEALTH",
+  "WOMEN'S HEALTH",
+  'DETOX & WEIGHT',
+  'INFECTIONS & IMMUNITY',
+  'CHRONIC DISEASE',
+  'GENERAL WELLNESS',
+];
 
 export default function ProductGrid() {
   const [products,  setProducts]  = useState([]);
@@ -25,7 +33,7 @@ export default function ProductGrid() {
 
   const filtered = useMemo(() => {
     return products.filter(p => {
-      const matchCat    = category === 'All' || p.category === category;
+      const matchCat    = category === 'All' || p.category.toUpperCase() === category;
       const matchSearch = (
         p.name.toLowerCase().includes(search.toLowerCase()) ||
         p.description.toLowerCase().includes(search.toLowerCase())
