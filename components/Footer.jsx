@@ -79,7 +79,7 @@ export default function Footer() {
             <span className="footer__contact-icon">📍</span>
             <div>
               <div className="footer__contact-label">Location</div>
-              <div className="footer__contact-value">Nigeria (Nationwide Delivery)</div>
+              <div className="footer__contact-value">Nationwide & International Delivery</div>
             </div>
           </div>
 
